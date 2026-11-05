@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="Support and frequently asked questions for Papyra, the private PDF editor for iPhone and iPad.">
+  <title>Support — Papyra</title>
+  <link rel="icon" href="assets/icon.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="brand" href="index.html"><img src="assets/icon.png" alt="" width="38"><span>Papyra</span></a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap legal">
+    <h1>Support</h1>
+    <p class="meta">Papyra for iPhone and iPad</p>
+
+    <div class="note">The fastest way to reach the developer is the public issue tracker: <a href="https://github.com/erdinc11/papyra-site/issues">github.com/erdinc11/papyra-site/issues</a>. Please do not attach a document that contains personal, financial, or confidential information. A screenshot of the app with sensitive details covered is enough.</div>
+
+    <h2>Frequently asked questions</h2>
+    <div class="faq">
+      <details open>
+        <summary>How do I import a PDF?</summary>
+        <p>Tap <em>Import</em> in the library, choose a PDF or image from Files/iCloud Drive, or use the share sheet from another app. Papyra copies the selection into its local library.</p>
+      </details>
+      <details>
+        <summary>How do I scan paper?</summary>
+        <p>Tap <em>Scan</em>. The camera opens only after you grant access. If camera access is unavailable, import a PDF or choose photos instead. Scans are processed on the device.</p>
+      </details>
+      <details>
+        <summary>What is the difference between “replace text” and redaction?</summary>
+        <p>Text replacement covers the original text and writes a new layer. Export with <em>Flatten annotations</em> when you want the result to look final. Redaction is different: it rasterizes the page, paints the selected areas, and removes the text underneath. Use Redaction for sensitive content, and verify the page afterwards.</p>
+      </details>
+      <details>
+        <summary>Why is “Insights” missing?</summary>
+        <p>Insights use Apple’s on-device language model. It is available only on supported devices and operating-system versions. When it is not available, Papyra hides the feature instead of showing an empty screen. No document text is sent to a server.</p>
+      </details>
+      <details>
+        <summary>Does Papyra upload my documents?</summary>
+        <p>No. There is no account and no document server. Files stay in the app’s local container until you delete them or export/share a copy. OCR and insights run on the device.</p>
+      </details>
+      <details>
+        <summary>How does App Lock work?</summary>
+        <p>App Lock uses Face ID, Touch ID, or your device passcode through iOS LocalAuthentication. Papyra never receives your biometric data. If device authentication is not configured, App Lock cannot be enabled.</p>
+      </details>
+      <details>
+        <summary>Can I password-protect an exported PDF?</summary>
+        <p>Yes. In the export sheet, turn on <em>Password protect</em>. You can also prevent text copying. Keep the password somewhere safe; Papyra does not store it.</p>
+      </details>
+      <details>
+        <summary>Why does a PDF ask for a password?</summary>
+        <p>The document is encrypted. Enter its password to open it. Papyra does not store the password and cannot recover it.</p>
+      </details>
+      <details>
+        <summary>How do I delete a document or all data?</summary>
+        <p>Long-press a document in the library and choose Delete. To remove everything, open Settings → Delete all data. Deleting the app removes its local container according to iOS behavior.</p>
+      </details>
+      <details>
+        <summary>Which languages are supported?</summary>
+        <p>The interface is available in Turkish and English. OCR and on-device insights depend on the languages supported by the device and the operating system.</p>
+      </details>
+      <details>
+        <summary>Something crashed or a PDF will not open.</summary>
+        <p>Please open an issue with the iOS version, device model, what you did, and what happened. If possible, include a screenshot with sensitive content covered. Do not send confidential documents.</p>
+      </details>
+    </div>
+
+    <h2>Response expectations</h2>
+    <p>Papyra is maintained by an independent developer. Support is best-effort through the public issue tracker. Clear, reproducible reports are prioritized. There is no guaranteed response time or service-level agreement.</p>
+
+    <h2>Contact</h2>
+    <p><a class="button cobalt" href="https://github.com/erdinc11/papyra-site/issues">Open a support issue</a></p>
+    <p>For privacy questions, see the <a href="privacy.html">Privacy Policy</a>. For license terms, see <a href="terms.html">Terms of Use</a>.</p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-row">
+        <span>Papyra · Made for iPhone and iPad</span>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Use</a>
+        </div>
+      </div>
+      <p class="footer-disclaimer">Papyra is an independent app. iPhone, iPad, and App Store are trademarks of Apple Inc. Papyra is not affiliated with, endorsed by, or sponsored by Apple.</p>
+    </div>
+  </footer>
+</body>
+</html>
